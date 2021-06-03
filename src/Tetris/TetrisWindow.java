@@ -14,8 +14,6 @@ public class TetrisWindow extends JFrame {
 
     // statusBar will display the score
     private final JLabel statusBar;
-    private TetrisGame tetrisGame;
-    private TetrisDisplay tetrisDisplay;
 
     public TetrisWindow() {
         System.out.println("INSTRUCTIONS BELOW:");
@@ -30,8 +28,7 @@ public class TetrisWindow extends JFrame {
         int WIN_WIDTH = 11;
         int WIN_HEIGHT = 25;
 
-        tetrisGame = new TetrisGame(this, WIN_WIDTH, WIN_HEIGHT);
-        tetrisDisplay = new TetrisDisplay(tetrisGame, WIN_WIDTH, WIN_HEIGHT);
+        TetrisGame tetrisGame = new TetrisGame(this, WIN_WIDTH, WIN_HEIGHT);
         add(tetrisGame);
         tetrisGame.startGame();
 

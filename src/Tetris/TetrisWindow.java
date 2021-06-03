@@ -1,6 +1,6 @@
 /*
  * This File: TetrisWindow.java
- * Author: Rajan Budhathoki
+ * Author: Tushar Rohilla
  * Date: 23/05/2021
  * Purpose: This class defines the basic external window (JFrame) for our tetris program
  */

@@ -1,6 +1,6 @@
 /*
  * This File: TetrisDisplay.java
- * Author: Rajan Budhathoki
+ * Author: Tushar Rohilla
  * Date: 23/05/2021
  * Purpose: This class defines the listeners and graphical logic required for the tetris game
  */

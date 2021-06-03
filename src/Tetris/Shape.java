@@ -1,6 +1,6 @@
 /*
  * This File: Shape.java
- * Author: Rajan Budhathoki
+ * Author: Tushar Rohilla
  * Date: 23/05/2021
  * Purpose: This class defines the logic behind the tetrominoe formation and colours 
  */
